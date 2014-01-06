@@ -1,8 +1,5 @@
 Make Me Links
 ==============
-
-Plugin Name
-==============
 Contributors: william.deangelis
 
 Donate link: http://williamdeangelis.com/donate
