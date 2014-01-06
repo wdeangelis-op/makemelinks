@@ -16,7 +16,7 @@ function make_me_links_js() {
 	jQuery(document).ready(function()
 	{
 		jQuery(".entry-content a[href^=\'http://\']").attr("target","_blank");
-		jQuery(".entry-content a[href^=\'http://williamdeangelis.com\']").attr("target","_self");
+		jQuery(".entry-content a[href^=' . bloginfo('url') . ']").attr("target","_self");
 	});
 	</script>';
 }
